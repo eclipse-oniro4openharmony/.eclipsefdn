@@ -14,8 +14,5 @@ orgs.newOrg('eclipse-oniro4openharmony') {
     packages_containers_internal: false,
     packages_containers_public: false,
     web_commit_signoff_required: false,
-    workflows+: {
-      actions_can_approve_pull_request_reviews: false,
-    },
   },
 }
