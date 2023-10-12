@@ -17,5 +17,11 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
+    orgs.newRepo('manifest') {
+      allow_auto_merge: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: true,
+      web_commit_signoff_required: true,
+    },
   ],
 }
