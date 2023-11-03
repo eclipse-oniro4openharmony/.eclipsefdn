@@ -27,6 +27,17 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       delete_branch_on_merge: true,
       web_commit_signoff_required: true,
       auto_init: false,
+      gh_pages_build_type: "legacy",
+      gh_pages_source_branch: "main",
+      gh_pages_source_path: "/",
+      environments: [
+        orgs.newEnvironment('github-pages') {
+          branch_policies+: [
+            "main"
+          ],
+          deployment_branch_policy: "selected",
+        },
+      ],
     },
   ],
 }
