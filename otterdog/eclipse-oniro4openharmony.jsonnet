@@ -21,5 +21,12 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_update_branch: false,
       default_branch: "OpenHarmony-3.2-Release",
     },
+    orgs.newRepo('eclipse-oniro4openharmony.github.io') {
+      allow_auto_merge: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: true,
+      web_commit_signoff_required: true,
+      auto_init: false,
+    },
   ],
 }
