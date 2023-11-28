@@ -38,5 +38,23 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_update_branch: false,
       default_branch: "OpenHarmony-3.2-Release",
     },
+    orgs.newRepo('oniro-ide') {
+      allow_rebase_merge: false,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      has_wiki: false,
+      secret_scanning: "disabled",
+      secret_scanning_push_protection: "disabled",
+      squash_merge_commit_message: "BLANK",
+      squash_merge_commit_title: "PR_TITLE",
+      web_commit_signoff_required: false,
+      branch_protection_rules: [
+        orgs.newBranchProtectionRule('main') {
+          required_approving_review_count: 0,
+          requires_status_checks: false,
+          requires_strict_status_checks: true,
+        },
+      ],
+    },
   ],
 }
