@@ -4,8 +4,6 @@ orgs.newOrg('eclipse-oniro4openharmony') {
   settings+: {
     description: "",
     name: "Eclipse Oniro for OpenHarmony",
-    packages_containers_internal: false,
-    packages_containers_public: false,
     web_commit_signoff_required: false,
   },
   _repositories+:: [
