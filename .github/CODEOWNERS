@@ -2,4 +2,4 @@
 *             @eclipse-oniro4openharmony/eclipsefdn-releng
 
 # Otterdog related configurations are also owned by the security team.
-/otterdog/**  @eclipse-oniro4openharmony/eclipsefdn-security @eclipse-oniro4openharmony/eclipsefdn-releng
+/otterdog/**  @eclipse-oniro4openharmony/eclipsefdn-security
