@@ -44,6 +44,7 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_auto_merge: true,
       allow_update_branch: false,
       allow_squash_merge: false,
+      default_branch: "oniro",
     },
     orgs.newRepo('oniro-ide') {
       allow_rebase_merge: false,
