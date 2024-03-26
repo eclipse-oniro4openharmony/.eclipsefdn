@@ -35,17 +35,6 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_update_branch: false,
       default_branch: "OpenHarmony-4.0-Release",
     },
-    orgs.newRepo('third_party_kanto') {
-      allow_auto_merge: true,
-      allow_update_branch: false,
-      allow_squash_merge: false,
-    },
-    orgs.newRepo('third_party_mosquitto') {
-      allow_auto_merge: true,
-      allow_update_branch: false,
-      allow_squash_merge: false,
-      default_branch: "oniro",
-    },
     orgs.newRepo('oniro-ide') {
       allow_rebase_merge: false,
       allow_update_branch: false,
@@ -63,6 +52,21 @@ orgs.newOrg('eclipse-oniro4openharmony') {
           requires_strict_status_checks: true,
         },
       ],
+    },
+    orgs.newRepo('third_party_kanto') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      description: "Kanto integration for Oniro ",
+      homepage: "",
+    },
+    orgs.newRepo('third_party_mosquitto') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "oniro",
+      description: "Fork of Eclipse Mosquitto for Oniro integration",
+      homepage: "",
     },
   ],
 }
