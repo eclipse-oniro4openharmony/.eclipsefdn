@@ -64,6 +64,7 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_auto_merge: true,
       allow_squash_merge: false,
       allow_update_branch: false,
+      default_branch: "oniro",
       description: "Fork of Eclipse Mosquitto for Oniro integration",
       homepage: "",
     },
