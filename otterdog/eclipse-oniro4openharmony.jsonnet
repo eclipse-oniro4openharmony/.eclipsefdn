@@ -71,7 +71,7 @@ orgs.newOrg('eclipse-oniro4openharmony') {
     orgs.newRepo('f-oh') {
       allow_auto_merge: true,
       allow_squash_merge: false,
-      allow_update_branch: true,
+      allow_update_branch: false,
       default_branch: "oniro",
       description: "Fork of F-OH application store for Oniro",
       homepage: "",
@@ -79,7 +79,7 @@ orgs.newOrg('eclipse-oniro4openharmony') {
     orgs.newRepo('f-oh-data') {
       allow_auto_merge: true,
       allow_squash_merge: false,
-      allow_update_branch: true,
+      allow_update_branch: false,
       default_branch: "oniro",
       description: "Fork of F-OH backend for Oniro",
       homepage: "",
