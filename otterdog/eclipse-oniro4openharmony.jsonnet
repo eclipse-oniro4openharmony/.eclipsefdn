@@ -40,8 +40,6 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       has_wiki: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       squash_merge_commit_message: "BLANK",
       squash_merge_commit_title: "PR_TITLE",
       web_commit_signoff_required: false,
