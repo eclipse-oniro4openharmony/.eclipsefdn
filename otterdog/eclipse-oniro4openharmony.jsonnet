@@ -82,5 +82,13 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       description: "Fork of F-OH backend for Oniro",
       homepage: "",
     },
+    orgs.newRepo('app-wikipedia') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Wikipedia application for Oniro",
+      homepage: "",
+    },
   ],
 }
