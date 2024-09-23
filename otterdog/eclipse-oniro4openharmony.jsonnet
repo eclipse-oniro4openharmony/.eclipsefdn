@@ -149,5 +149,13 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       homepage: "",
       auto_init: false,
     },
+    orgs.newRepo('oniro-planning') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Oniro development planning",
+      homepage: "",
+    },
   ],
 }
