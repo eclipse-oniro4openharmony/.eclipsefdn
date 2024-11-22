@@ -186,5 +186,13 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       homepage: "",
       auto_init: false,
     },
+    orgs.newRepo('app-math_practice_demo') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "An application for math problems practice",
+      homepage: "",
+    },
   ],
 }
