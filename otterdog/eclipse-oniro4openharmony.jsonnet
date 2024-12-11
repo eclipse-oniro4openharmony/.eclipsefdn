@@ -6,6 +6,11 @@ orgs.newOrg('eclipse-oniro4openharmony') {
     name: "Eclipse Oniro for OpenHarmony",
     web_commit_signoff_required: false,
   },
+  secrets: [
+    orgs.newOrgSecret('ONIRO_APP_SIGNATURE_ZIP') {
+      value: "pass:bots/oniro.oniro4openharmony/github.com/app-signature-zip",
+    },
+  ],
   _repositories+:: [
     orgs.newRepo('.github') {
       allow_auto_merge: true,
