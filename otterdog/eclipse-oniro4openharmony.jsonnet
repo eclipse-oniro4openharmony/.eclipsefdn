@@ -279,5 +279,21 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       description: "Throw the dice is a simple example of helper app for RPG / boardgames",
       homepage: "",
     },
+    orgs.newRepo('app-Pinwheel') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A fun and interactive application that simulates a pinwheel spinning based on your breath!",
+      homepage: "",
+    },
+    orgs.newRepo('app-PokemonList') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Pokemon List: A application to explore Pokémon types, attributes, and skill effects with ease.",
+      homepage: "",
+    },
   ],
 }
