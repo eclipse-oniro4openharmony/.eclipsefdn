@@ -295,5 +295,23 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       description: "Pokemon List: A application to explore Pokémon types, attributes, and skill effects with ease.",
       homepage: "",
     },
+    orgs.newRepo('oh-app-action') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A GitHub Action that streamlines Oniro/OpenHarmony app development workflows by setting up the necessary development environment in CI/CD pipelines.",
+      homepage: "",
+    },
+    orgs.newRepo('hub-mirror-action') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A GitHub Action for mirroring repos between GitHub and Gitee",
+      homepage: "",
+      forked_repository: "Yikun/hub-mirror-action",
+      fork_default_branch_only: true,
+    },
   ],
 }
