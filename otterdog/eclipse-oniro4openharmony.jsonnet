@@ -307,7 +307,7 @@ orgs.newOrg('eclipse-oniro4openharmony') {
       allow_auto_merge: true,
       allow_squash_merge: false,
       allow_update_branch: false,
-      default_branch: "main",
+      default_branch: "master",
       description: "A GitHub Action for mirroring repos between GitHub and Gitee",
       homepage: "",
       forked_repository: "Yikun/hub-mirror-action",
