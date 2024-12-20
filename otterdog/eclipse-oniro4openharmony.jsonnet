@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-oniro4openharmony') {
+orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
   settings+: {
     description: "",
     name: "Eclipse Oniro for OpenHarmony",
