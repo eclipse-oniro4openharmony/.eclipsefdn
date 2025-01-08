@@ -313,5 +313,21 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       forked_repository: "Yikun/hub-mirror-action",
       fork_default_branch_only: true,
     },
+    orgs.newRepo('app-WorkoutLogbook') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "An intuitive app to track workouts, exercise duration, and calories for efficient health management.",
+      homepage: "",
+    },
+    orgs.newRepo('app-PlayScout') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "An App to explore and download free games.",
+      homepage: "",
+    },
   ],
 }
