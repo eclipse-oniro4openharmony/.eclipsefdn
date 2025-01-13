@@ -329,5 +329,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "An App to explore and download free games.",
       homepage: "",
     },
+    orgs.newRepo('app-MyMeteo') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "The application is a client of OpenMeteo and allows you to check the weather forecast for the city you are searching for.",
+      homepage: "",
+    },
   ],
 }
