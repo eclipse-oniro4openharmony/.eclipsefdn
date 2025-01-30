@@ -337,5 +337,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "The application is a client of OpenMeteo and allows you to check the weather forecast for the city you are searching for.",
       homepage: "",
     },
+    orgs.newRepo('app-oniroGPT') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A GPT client for the Oniro platform, enabling users to interact with large language models within the Oniro ecosystem.",
+      homepage: "",
+    },
   ],
 }
