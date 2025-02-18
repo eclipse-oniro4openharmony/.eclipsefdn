@@ -345,5 +345,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "A GPT client for the Oniro platform, enabling users to interact with large language models within the Oniro ecosystem.",
       homepage: "",
     },
+    orgs.newRepo('oniro-app-builder') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A tool for building Oniro/OpenHarmony applications",
+      homepage: "",
+    },
   ],
 }
