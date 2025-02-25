@@ -24,9 +24,7 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       allow_squash_merge: false,
       allow_update_branch: false,
       description: "Oniro Documentation",
-      gh_pages_build_type: "legacy",
-      gh_pages_source_branch: "main",
-      gh_pages_source_path: "/",
+      gh_pages_build_type: "workflow",
       homepage: "https://docs.oniroproject.org/",
       environments: [
         orgs.newEnvironment('github-pages') {
@@ -163,6 +161,7 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       default_branch: "main",
       description: "Oniro development planning",
       homepage: "",
+      has_discussions: true,
     },
     orgs.newRepo('device_board_oniro') {
       allow_auto_merge: true,
