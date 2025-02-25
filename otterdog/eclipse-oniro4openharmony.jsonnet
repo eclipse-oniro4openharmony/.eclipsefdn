@@ -163,6 +163,7 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       default_branch: "main",
       description: "Oniro development planning",
       homepage: "",
+      has_discussions: true,
     },
     orgs.newRepo('device_board_oniro') {
       allow_auto_merge: true,
