@@ -353,5 +353,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "A tool for building Oniro/OpenHarmony applications",
       homepage: "",
     },
+    orgs.newRepo('app-OniroNews') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Oniro News - a personalized news app",
+      homepage: "",
+    },
   ],
 }
