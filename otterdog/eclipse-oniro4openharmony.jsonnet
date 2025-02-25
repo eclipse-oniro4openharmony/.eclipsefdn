@@ -24,7 +24,7 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       allow_squash_merge: false,
       allow_update_branch: false,
       description: "Oniro Documentation",
-      gh_pages_build_type: "legacy",
+      gh_pages_build_type: "workflow",
       gh_pages_source_branch: "main",
       gh_pages_source_path: "/",
       homepage: "https://docs.oniroproject.org/",
