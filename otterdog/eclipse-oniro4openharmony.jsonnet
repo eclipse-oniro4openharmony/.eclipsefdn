@@ -360,5 +360,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Oniro News - a personalized news app",
       homepage: "",
     },
+    orgs.newRepo('app-rnoh-example') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Example React Native application for Oniro/OpenHarmony.",
+      homepage: "",
+    },
   ],
 }
