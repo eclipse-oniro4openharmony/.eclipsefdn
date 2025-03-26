@@ -368,5 +368,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Example React Native application for Oniro/OpenHarmony.",
       homepage: "",
     },
+    orgs.newRepo('meta-openharmony') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Yocto OpenEmbedded layer for building Oniro/OpenHarmony images",
+      homepage: "",
+    },
   ],
 }
