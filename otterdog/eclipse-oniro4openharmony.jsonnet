@@ -376,5 +376,15 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Yocto OpenEmbedded layer for building Oniro/OpenHarmony images",
       homepage: "",
     },
+    orgs.newRepo('applications_hap') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "master",
+      description: "Oniro System Apps (HAP)",
+      homepage: "",
+      forked_repository: "eclipse-oniro-mirrors/applications_hap",
+      fork_default_branch_only: false,
+    },
   ],
 }
