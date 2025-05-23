@@ -26,11 +26,12 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Oniro Documentation",
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
+      gh_pages_source_path: "/",
       homepage: "https://docs.oniroproject.org/",
       environments: [
         orgs.newEnvironment('github-pages') {
           branch_policies+: [
-            "main"
+            "gh-pages"
           ],
           deployment_branch_policy: "selected",
         },
