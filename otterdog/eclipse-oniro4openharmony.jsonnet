@@ -388,5 +388,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       forked_repository: "eclipse-oniro-mirrors/applications_hap",
       fork_default_branch_only: false,
     },
+    orgs.newRepo('oniro-vscode-ext') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Oniro IDE is a VSCode Extension for Oniro application development.",
+      homepage: "",
+    },
   ],
 }
