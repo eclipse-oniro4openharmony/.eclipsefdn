@@ -396,5 +396,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Oniro IDE is a VSCode Extension for Oniro application development.",
       homepage: "",
     },
+    orgs.newRepo('app-SuperDeviceDemo') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Cross-device sync demo using OpenHarmony distributed KV store.",
+      homepage: "",
+    },
   ],
 }
