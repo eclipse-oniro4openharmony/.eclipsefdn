@@ -404,5 +404,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Cross-device sync demo using OpenHarmony distributed KV store.",
       homepage: "",
     },
+    orgs.newRepo('app-snake') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Distributed Snake Game for OpenHarmony to demonstrate distributed control",
+      homepage: "",
+    },
   ],
 }
