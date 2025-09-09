@@ -412,5 +412,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Distributed Snake Game for OpenHarmony to demonstrate distributed control",
       homepage: "",
     },
+    orgs.newRepo('app-HeartRateMonitor') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Oniro wearable application for heart rate monitoring.",
+      homepage: "",
+    },
   ],
 }
