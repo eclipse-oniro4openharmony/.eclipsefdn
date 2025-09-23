@@ -420,5 +420,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Oniro wearable application for heart rate monitoring.",
       homepage: "",
     },
+    orgs.newRepo('app-oh-ble') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "BLE GATT client/server",
+      homepage: "",
+    },
   ],
 }
