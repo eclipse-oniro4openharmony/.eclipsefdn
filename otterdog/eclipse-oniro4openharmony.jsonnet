@@ -428,5 +428,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "BLE GATT client/server",
       homepage: "",
     },
+    orgs.newRepo('app-smartGesture') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Wearable app to demonstrate gestures and crown interactions",
+      homepage: "",
+    },
   ],
 }
