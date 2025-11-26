@@ -436,5 +436,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Wearable app to demonstrate gestures and crown interactions",
       homepage: "",
     },
+    orgs.newRepo('app-GoldenREP') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A smartwatch app that evaluates weightlifting reps in real time using sensor-based motion analysis and AI feedback.",
+      homepage: "",
+    },
   ],
 }
