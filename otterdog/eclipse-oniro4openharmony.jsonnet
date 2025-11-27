@@ -444,5 +444,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "A smartwatch app that evaluates weightlifting reps in real time using sensor-based motion analysis and AI feedback.",
       homepage: "",
     },
+    orgs.newRepo('app-Pulse') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A real-time CPR coaching app that uses custom ML logic and multimodal feedback to guide rescuers during cardiac emergencies.",
+      homepage: "",
+    },
   ],
 }
