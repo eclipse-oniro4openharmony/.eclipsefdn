@@ -460,5 +460,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "A HarmonyOS NFC demo app that implements NFC card read/write, Host Card Emulation, and other features.",
       homepage: "",
     },
+    orgs.newRepo('agent-skills') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A collection of professional AI agent skills designed to enhance development workflows",
+      homepage: "",
+    },
   ],
 }
