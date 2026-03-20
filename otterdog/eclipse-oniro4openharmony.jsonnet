@@ -468,5 +468,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "A collection of professional AI agent skills designed to enhance development workflows",
       homepage: "",
     },
+    orgs.newRepo('app-vlc-ohos') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "VLC for Oniro, OpenHarmony, HarmonyOS",
+      homepage: "",
+    },
   ],
 }
