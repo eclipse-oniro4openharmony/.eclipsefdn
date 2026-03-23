@@ -476,5 +476,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "VLC for Oniro, OpenHarmony, HarmonyOS",
       homepage: "",
     },
+    orgs.newRepo('capacitor-openharmony') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Oniro & OpenHarmony platform adapter for Capacitor.",
+      homepage: "",
+    },
   ],
 }
