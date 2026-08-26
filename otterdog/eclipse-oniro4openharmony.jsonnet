@@ -534,5 +534,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "An AI mobile app that turns complex medicine labels into clear dosage, safety, and reminder guides",
       homepage: "",
     },
+    orgs.newRepo('app-StudyOralCoach') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "An app for turning question-and-answer documents into oral practice sessions",
+      homepage: "",
+    },
   ],
 }
