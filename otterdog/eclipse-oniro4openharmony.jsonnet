@@ -542,5 +542,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "An app for turning question-and-answer documents into oral practice sessions",
       homepage: "",
     },
+    orgs.newRepo('oniro-app-store-actions') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "Reusable GitHub workflow that builds an Oniro/OpenHarmony app from source and publishes it to the Oniro App Store",
+      homepage: "",
+    },
   ],
 }
